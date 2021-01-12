@@ -1,0 +1,5 @@
+/data
+/workspace/.ipynb_checkpoints
+/workspace/spark-warehouse
+/workspace/metastore_db
+/workspace/derby.log

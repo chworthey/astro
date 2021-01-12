@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  notebook:
+    image: jupyter/all-spark-notebook
+    hostname: notebook
+    ports:
+      - 3000:8888
+    command: start-notebook.sh --NotebookApp.token="" --NotebookApp.password=""
+    volumes:
+      - type: bind
+        source: ./workspace
+        target: /home/jovyan/workspace
+      - type: bind
+        read_only: true
+        source: ./data
+        target: /home/jovyan/data
+
