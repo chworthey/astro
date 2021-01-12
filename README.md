@@ -8,9 +8,9 @@ Please start by installing [Docker](https://docs.docker.com/get-docker/)
 
 Copy the astronomy data to `./data` such that the structure looks like `./data/m33_0.01/cp/...`
 
-## Start the Cluster
+## Start the Notebook
 
-Boot the cluster with:
+Boot the notebook with:
 ```sh
 docker-compose up
 ```
