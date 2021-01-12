@@ -6,7 +6,7 @@ This project houses a notebook which analyzes astronomy spectra data for age cha
 
 Please start by installing [Docker](https://docs.docker.com/get-docker/)
 
-Copy the astronomy data to `./data` such that the structure looks like `./data/m33_0.01/cp/...`
+Copy the astronomy data to `./data` such that the structure looks like `./data/spectra/m33_0.01/cp/...`
 
 ## Start the Notebook
 
